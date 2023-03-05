@@ -63,7 +63,14 @@ export default function Weather() {
           </ul>
         </div>
       </div>
-      <a href="#">Open Source</a>
+      <a
+        href="https://github.com/jessnirvana/weather-react"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open Source
+      </a>
+      &nbsp; By Jessica Monge
     </div>
   );
 }
