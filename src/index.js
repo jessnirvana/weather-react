@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Weather from "./Weather";
+import App from "./App";
 
 import "./Weather.css";
 
@@ -13,6 +14,7 @@ root.render(
   <StrictMode>
     <div className="App">
       <Weather />
+      <App />
     </div>
   </StrictMode>
 );
