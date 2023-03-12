@@ -6,6 +6,8 @@ import Weather from "./Weather";
 import App from "./App";
 
 import "./Weather.css";
+import "./index.css";
+import "./App.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
