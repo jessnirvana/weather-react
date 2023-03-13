@@ -7,14 +7,18 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
+          This project was coded by Jessica Monge and is{" "}
           <a
             href="https://github.com/jessnirvana/weather-react"
             target="_blank"
             rel="noreferrer"
           >
-            Open Source
+            open source on GitHub
+          </a>{" "}
+          and{" "}
+          <a href="https://master--shimmering-cascaron-e4d694.netlify.app/">
+            hosted on Netlify
           </a>
-          &nbsp; By Jessica Monge
         </footer>
       </div>
     </div>
